@@ -34,3 +34,4 @@ jobs:
         docker push diegobonaguriodev/nlw.service.passin:${{ steps.generate_sha.outputs.sha }}
         docker tag diegobonaguriodev/nlw.service.passin:${{ steps.generate_sha.outputs.sha }} diegobonaguriodev/nlw.service.passin:latest
         dockker push diegobonaguriodev/nlw.service.passin:latest
+        
